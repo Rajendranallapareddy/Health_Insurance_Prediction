@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthInsurancePredictionHome</title>
+    <link rel="stylesheet" href="\static\homestyle.css">
+</head>
+<body>
+  <div class="background"></div>
+    <header>
+        <div class="heading"><h1>Health Insurance Prediction</h1></div>
+        <div class="lnk">
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('prediction') }}">Prediction</a></li>
+                <li><a href="{{ url_for('about') }}">About Health Insurance</a></li>
+                <li><a href="{{ url_for('aboutus') }}">About us</a></li>
+                <li><a href="{{ url_for('login') }}">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <div class="maintext">
+        <p>Health insurance (sometimes called health coverage) pays for some or all of the cost of the health services you receive, like doctors’ visits, hospital stays, and visits to the emergency room. It helps keep your health care costs predictable and affordable. You may have to pay several different amounts for health insurance:
+            You will generally pay a premium, a monthly fixed payment to the insurance company.
+            You may have to pay a deductible. This is a fixed amount that you pay out of pocket before your health insurance begins to pay for your health services.
+            After you have met the deductible, you and your insurance company typically share the cost of covered health services. Your insurance pays most of the cost first, and then you pay the remaining cost. The amount that you pay is either a copayment (a fixed amount) or a coinsurance (a percentage of the cost of the service).
+            Medicare is a type of health insurance administered by the federal government.</p>
+    </div>
+
+    <center><img src="{{ url_for('static', filename='images/home.jpg') }}" width="1500" height="auto" class="homeimg"></center>
+   
+    <center><div class="ra"><h3>You can get your Insurance prediction here 👇</h3></div></center>
+
+    <center><a href="{{ url_for('prediction') }}" class="button">Predict Insurance</a></center>
+
+</body>
+</html>

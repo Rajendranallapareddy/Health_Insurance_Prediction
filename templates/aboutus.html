@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="bground"></div>
+    <title>AboutUS</title>
+    <link rel="stylesheet" href="\static\aboutusstyle.css">
+    <center><h1>Project Devolopers</h1></center>
+</head>
+<body>
+    <div class="author-info">
+        <img src="{{ url_for('static', filename='images/madhu.jpg') }}" width="1500" height="auto" class="homeimg">
+        <h2></h2>
+        <p>Madhusudhan Reddy Ravuru</p>
+        <p>At Visvodata Technical Academy</p>
+        <p>Roll No : 224N5A3903</p>
+    </div>
+    
+    <div class="author-info">
+        <img src="{{ url_for('static', filename='images/badri.jpg') }}" width="1500" height="auto" class="homeimg">
+        <h2></h2>
+        <p>Badrinath Chevuru</p>
+        <p>At Visvodata Technical Academy</p>
+        <p>Roll No : 224N5A3901</p>
+    </div>
+    <div class="author-info">
+        <img src="{{ url_for('static', filename='images/vasu.jpg') }}" width="1500" height="auto" class="homeimg">
+        <h2></h2>
+        <p>Vasu Machala</p>
+        <p>At Visvodata Technical Academy</p>
+        <p>Roll No : 224N5A3904</p>
+    </div>
+    <div class="author-info">
+        <img src="{{ url_for('static', filename='images/lasya.jpg') }}" width="1500" height="auto" class="homeimg">
+        <h2></h2>
+        <p>Lasya Batreddy</p>
+        <p>At Visvodata Technical Academy</p>
+        <p>Roll No : 214N1A3963</p>
+    </div>
+    <div class="author-info">
+        <img src="{{ url_for('static', filename='images/manmadha.jpg') }}" width="1500" height="auto" class="homeimg">
+        <h2></h2>
+        <p>Manmadha Bandlamudi</p>
+        <p>At Visvodata Technical Academy</p>
+        <p>Roll No : 214N1A3961</p>
+    </div>
+
+    <center><button class="visitusbt" id="visitusbt">Visit Us</button>
+            <div class="details" id="content" style="display:none;">
+                <p>Name : Rajendra Nallapareddy</p>
+                <p>Roll Number : 214N1A3926</p>
+                <p>Pursuing at Visvodaya Technical Academy</p>
+                <p>Mail ID:<a href="rajendranallapareddy9515@gmail.com">rajendranallapareddy9515@gmail.com</a></p>
+            </div>
+
+<script>
+    var showContentButton = document.getElementById('visitusbt');
+    var content = document.getElementById('content');
+
+    showContentButton.addEventListener('click', function() {
+        if (content.style.display === 'none') {
+             content.style.display = 'block';
+        } else {
+            content.style.display = 'none';
+        }
+    });
+</script>
+
+</body>
+</html>
