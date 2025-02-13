@@ -1,0 +1,147 @@
+.background {
+    background-image: url('../static/images/homebg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    opacity: 0.5;
+  }
+
+header {
+    background-image: url('../static/images/sg1.jpg');
+    padding: 10px;
+    text-align: center;
+    opacity:0.9;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #e87f3e;
+}
+ul li a:hover {
+  background-color: #abebe6; 
+  border-radius: 20px;
+  border-style:groove;
+  stroke-width: 6px;
+  fill: transparent;
+  stroke: #009ffd;
+  stroke-dasharray: 85 400;
+  stroke-dashoffset: -220;
+  transition: 1s all ease;   
+  }
+.heading{
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height:1.5;
+  color: #db33d6;
+}
+h1{
+  color: #305de5;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #007bff;
+    color: #e99999;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.content {
+    padding: 50px 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.heading{
+  color: #b4f11c;
+  padding: 20px;
+
+}
+ul li a {
+color: #060006;  
+text-decoration:dotted; 
+padding: 5px 10px; 
+}
+.justified {
+text-align: justify;
+margin-bottom: 15px ; 
+margin-top: 20px;
+}
+.homeimg{
+max-width:100% ;
+max-height:1000px;
+height:max-content;
+opacity: 0.9;
+}
+
+.button {
+padding: 20px 30px;
+background-color: #ec6ce3;
+color: #070107;
+font-size: 18px;
+font-weight: bold;
+text-decoration: none;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.button:hover {
+  background-color: #76f039;
+}
+.ra{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  line-height:1.5;
+  color: #060000;
+
+}
+
+
+.maintext p {
+  font-size: 30px;
+  line-height:1.5;
+  color: #060000;
+  text-align:justify;
+  margin-left: 15px;
+}
+.lnk{
+  font-size: 30px;
+  line-height:1.5
+}
